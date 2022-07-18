@@ -4,66 +4,104 @@
         <link rel="stylesheet" type="text/css" href="layout.css">
     </head>
     <body>
+        <div class="form">
         <form action="/form-handling-url" method="post">
-            <fieldset>
-            <legend>Add user</legend>
+            <fieldset class="page-border">
+                 <legend class="legend-border">Add user</legend> 
         
-            <div>
-                <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
+            <div class="pack-1">
+                <div class="firstName">  
+                    <label for="firstName">First Name:</label>
+              </div>
+
+                    <input type="text" id="firstName" name="first_name" class="size-1"> 
             </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
-            </div>
-        
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
-            </div>
-        
-            <div>
-                <label for="role">Status</label>
-                <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
-                </select>
+           
+            <div class="pack-2"> 
+            <div class="lastName">
+                <label for="lastName">Last name:</label>
+                </div>
+                <input type="text" id="lastName" name="last_name" class="size-2">
+                               </div>
+       
+ 
+                               <div class="pack-3">            
+                   <div class="email">
+                <label for="email">Email:</label>
+               </div>
+                <input type="email" id="email" name="email_address" class="size-3">
+          
+        </div>
+       
+        <div class="container-1">     
+        <div class="container-pack-1">
+            <div class="status">       
+
+                <label for="role">Status:</label>
+</div>
+<input type="text" id="status" name="status_of" class="size-4">
             </div>
             
-            <div>
-                <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
+           <div class="container-pack-1">
+               <div class="date"> 
+            <label for="date">Date:</label>
+            </div>
+            <input type="text" id="date" name="date" class="size-5">
+            </div>
+</div>
+           
+
+
+
+    <div class="choose-text"> 
+    <p>Choose your favorite Web language:</p>
+        </div>
+        <div class="radio_ones">       
+        <input type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">HTML</label><br>
                 <input type="radio" id="css" name="fav_language" value="CSS">
                 <label for="css">CSS</label><br>
                 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <label for="javascript">JS</label>
+           
+</div>
+
+
+
+            <div class="comment-section">
+                <div class="comment-label">    <label for="comments">Comments:</label>
+               </div>
+                    <textarea id="comments" name="comments" class="comment-size"></textarea>
             </div>
 
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
-            </div>
+         
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
-            </div>
+                <div class="last-pack-container">      
+                    <div class="last-pack-1"> <input type="checkbox" id="signup" name="signup" value="Signup">
+                               
+                           
+             <label for="signup" class="last-pack-2">sign up for news</label><br>
+                                   </div>                   
+                                   <div class="last-pack-1"> <input type="checkbox" id="terms" name="terms" value="Terms" >
+             
+                    <label for="terms" class="last-pack-2" >agree to terms</label>
+          </div>
 
-            <div>
-                <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
-                <input type="checkbox" id="terms" name="terms" value="Terms">
-                <label for="terms"> Agree to terms and conditions</label>
-            </div>
-        
-            <div>
+</div>
+
+<div class="submission">
                 <button type="submit">Submit</button>
             </div>
         
+      
+
+       
             </fieldset>
         </form>
+</div>
+
+        
+    
+
     </body>
 </html>

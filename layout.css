@@ -1,0 +1,135 @@
+.form{
+display:flex;
+justify-content: center;
+}
+.legend-border{
+border: thin solid black;
+}
+.page-border{
+padding-right:125px;
+padding-left: 125px;
+padding-bottom:60px;
+}
+.pack-1{
+display: grid;
+margin:5px;
+grid-column:1/2 ;
+}
+.firstName{
+    display:flex;
+    justify-content:center;
+
+}
+.size-1{
+ width:200px;
+ margin-left:30px ;
+}
+
+
+
+
+.pack-2{
+display: grid;
+margin:5px;
+grid-column:1/2 ;
+}
+.lastName{
+    display:flex;
+    justify-content:center;
+
+}
+.size-2{
+ width:200px;
+ margin-left:30px ;
+}
+
+
+
+
+
+.pack-3{
+display: grid;
+margin:5px;
+grid-column:1/2 ;
+}
+.email{
+    display:flex;
+    justify-content:center;
+
+}
+.size-3{
+ width:200px;
+ margin-left:30px ;
+}
+
+.container-pack-1{
+display: grid;
+margin:5px;
+grid-column:1/2 ;
+float: left;
+}
+.status{
+margin-left:53px; 
+ 
+
+}
+.size-4{
+ width:90px;
+ margin-left:28px;
+}
+.date{
+    margin-left: 30px;
+}
+
+.size-5{
+ width:90px;
+ 
+}
+.choose-text{
+margin-left: 31px;
+font-size: 0.75em;
+}
+.radio_ones{
+    display:flex;
+    margin-left:30px;
+   flex-direction:row;
+    font-size:24px;
+    margin-bottom:5px;
+}
+
+.comment-section{
+display:grid;
+margin-bottom:5px;
+margin-left:30px;
+grid-column:1/2 ;
+}
+.comment-size{
+    width:200px;
+}
+
+.comment-label{
+margin-left:10px;   
+}
+
+.last-pack-container{
+    margin-left:26px;
+   
+    
+}
+.submission{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.last-pack-1{
+  display: inline-block; 
+    
+}
+.last-pack-2{
+   display: inline-block;
+width:78px;
+font-size:0.75em;
+
+}
+
+/*Honestly this project took a lot of trial and error to get done, I spent days looking super confused but in the end sha, I was able to finish it👀😏*/
